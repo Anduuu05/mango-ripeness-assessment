@@ -31,3 +31,6 @@ The model file must remain in the same folder as ui.py.
 - Image Processing ASSIGNMENT-LIMYUJIE PART/ — Surface Defect Handling Pipeline files.
 
 The notebooks require the mango dataset to be available locally. The Streamlit UI does not need the dataset because it loads the trained model file directly.
+## Dataset
+
+The mango ripeness dataset can be downloaded from the [Mendeley Data repository](https://data.mendeley.com/datasets/tyghd6gxw2/1).
