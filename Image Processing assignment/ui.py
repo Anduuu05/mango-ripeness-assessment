@@ -130,7 +130,7 @@ def main() -> None:
     if not MODEL_PATH.exists():
         st.warning(f"Model file not found: `{MODEL_PATH.name}`")
         st.code("joblib.dump(rf, 'hybrid_random_forest.pkl')")
-        st.caption("Place the exported model in the same folder as app.py, then reload the page.")
+        st.caption("Place the exported model in the same folder as ui.py, then reload the page.")
         return
 
     if st.button("Predict Ripeness", type="primary", use_container_width=True):
